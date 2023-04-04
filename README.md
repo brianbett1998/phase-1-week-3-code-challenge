@@ -23,7 +23,7 @@ Author:
 Status:
     maintained, and is currently in development
 Version:
-    v0.1.0
+    v.1.0.0
 Usage
 -----
 ## License
