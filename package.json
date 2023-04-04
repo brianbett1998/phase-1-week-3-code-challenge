@@ -1,0 +1,10 @@
+{
+    "name": "phae-1-week-3-code-challenge",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Brian Kiprono Bett",
+    "license": "MIT"
+}

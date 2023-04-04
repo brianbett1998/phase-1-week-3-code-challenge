@@ -1,0 +1,23 @@
+.heading{
+    background-color: blue;
+    color:black;
+    text-align: center;
+    
+}
+
+img{
+    height:400px;
+    width:200px;
+}
+
+.filmTitle{
+    background-color: aqua;
+    float: left;
+    width:50%;
+    padding:20px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    background-color: aqua;
+}

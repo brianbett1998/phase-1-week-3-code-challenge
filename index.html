@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLATDANGO</title>
+    <link rel=" stylesheet" href=" index.css"/>
+</head>
+<body>
+    <div class = "heading">
+     <div class ="item">
+      <h2 class = "ui header">
+        <i class = "orange ticket icon"></i>
+        <div class ="content">CINEMAX MOVIE THEATRE</div>
+        <div id = "subtitle">PURCHASE MOVIE TICKETS</div>
+      </h2>
+    </div>
+    </div>
+
+    <div class ="ui centred grid">
+        <div class ="four wide column">
+            <div class ="list-container">
+                <!--list of the movie to be appended here-->
+                <ul class="ui divided list" id="films">
+                    <li class="film item"></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--image-->
+        <div class="four wide column">
+            <img
+            id="poster"
+            src=""
+            alt="[MOVIE-TITLE]" 
+            />
+        </div>
+        
+                     <!--movie details-->
+        <section id="infobox">
+            <div class="four wide column">
+                <div class="ui cards" id="showing">
+                    <div class="card">
+                        <div id="title" class="title">[MOVIE TITLE]</div>
+                        <div id="runtime" class="meta">[RUNTIME]minutes</div>
+                          <div class="content">
+                            <div id"film-info">[ENTER MOVIE DESCRIPTION]</div>
+                            <span id="showtime" class="ui label">[SHOWTIME]</span>
+                            <span id="ticket-number">[--]</span>Available tickets
+                          </div>
+                    </div>
+              
+                    <!--Buying tikcet-->
+                    <div class="extra content">
+                        <button id="buy-ticket" class="ui orange button">
+
+                            PURCHASE TICKET
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+ </body>
+</html>
