@@ -53,8 +53,9 @@ btn.addEventListener('click', function(event){
     let remainingTickets = document.querySelector('#ticket-number').textContent;
     event.preventDefault();
     if (remainingTickets > 0) {
-        document.querySelector('#ticket-number').textContent = remainingTickets - 1;
-    } else if (parseInt(remainingTickets, 10) === 0) {
-        btn.textContent = 'Sold Out';
+        tickets.textContent = remainingTickets - 1;
+    } else {
+        ntn.textCotent='Sold Out';
+        btn.disabled = 'Sold Out';
     }
 });
